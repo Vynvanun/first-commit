@@ -1,4 +1,4 @@
 void main(List<String> args) {
-  print("hello world!")
-  print("ucup upload github")
+  print("hello world!");
+  print("ucup upload github");
 }
