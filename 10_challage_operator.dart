@@ -22,11 +22,9 @@ void main(List<String> args) {
    * -maka bilangan tersebut ganjil
    */
 
-  stdout.write("masukan nilai a ");
-  int a = int.parse(stdin.readLineSync()!);
-  stdout.write("masukan nilai b ");
-  int b = int.parse(stdin.readLineSync()!);
-  print('$a % $b = ${a % b }');
-  print("a");
-  
+  var number = 10;
+  var genap = number % 2 == 0;
+  print('apakah $number adalah bilangan genap? $genap');
+  var ganjil = number % 2 != 0;
+  print('apakah $number adalah bilangan ganjil? $ganjil');
 }
