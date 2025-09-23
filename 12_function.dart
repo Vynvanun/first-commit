@@ -19,6 +19,7 @@ void main(List<String> args) {
   birthDay3("Ucup", age: 25);
   birthDay3("Guerrero", weight: 70.5);
   birthDay3("vladimir", height: 180);
+  print("Luas Lingkaran: ${luasLingkaran(10)}");
   /**
    * untuk function dengan parameter optional
    * kita dapat megisi argumen sesuai nama
@@ -49,3 +50,24 @@ void birthDay3(String name, {
 
 }
 
+
+/**
+ * arrow function
+ * with return value
+ * 
+ */
+
+/**
+ * num adalah tipe data untuk angka
+ * nama functionya [luaslkingkaran]
+ * memiliki parameter r. (jari jari)
+ */
+// buata variable global
+const pi = 3.14; //variable global
+num luasLingkaran(num r){
+  return 3.14 * r * r;
+}
+
+//arrow function
+
+void kelilingLingkaran(num r) => 2 * pi * r;
