@@ -71,3 +71,11 @@ num luasLingkaran(num r){
 //arrow function
 
 void kelilingLingkaran(num r) => 2 * pi * r;
+
+num luasPersegi(num sisi) => sisi * sisi;
+
+/**
+ * => adlah arrow function
+ * hanya dapat digunakan untuk function
+ * yang memiliki satu baris kode
+ */
