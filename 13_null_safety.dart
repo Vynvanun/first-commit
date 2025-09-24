@@ -25,18 +25,18 @@
  * null safety dimulai di bawah ini
  * =================================
  */
-void main() {
-String? favoriteFood = 'Ayam Geprek';
+// void main() {
+// String? favoriteFood = 'Ayam Geprek';
 
-buyMeal(favoriteFood);
-}
-void buyMeal(String? favoriteFood){
-  if (favoriteFood == null) {
-    print('Saya membeli roket ayam geprek matah');
-  } else {
-    print('saya membeli bakso pentol gosong di Firha');
-  }
-}
+// buyMeal(favoriteFood);
+// }
+// void buyMeal(String? favoriteFood){
+//   if (favoriteFood == null) {
+//     print('Saya membeli roket ayam geprek matah');
+//   } else {
+//     print('saya membeli bakso pentol gosong di Firha');
+//   }
+// }
 
 /**
  * String? favotiteFood = null;
@@ -51,3 +51,16 @@ void buyMeal(String? favoriteFood){
  * yakni == null
  * 
  */
+
+void main(List<String> args) {
+  String? favoriteFood = 'Mi Ayam';
+
+  buyMeal(favoriteFood!);
+  /**
+   * tanda seru! disematkan untuk memastikan bahwa non-null
+   */
+}
+
+void buyMeal(String? favoriteFood) {
+  print('saya membeli makanan $favoriteFood')
+}
