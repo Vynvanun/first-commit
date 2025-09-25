@@ -62,5 +62,5 @@ void main(List<String> args) {
 }
 
 void buyMeal(String? favoriteFood) {
-  print('saya membeli makanan $favoriteFood')
+  print('saya membeli makanan $favoriteFood');
 }
