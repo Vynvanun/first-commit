@@ -5,7 +5,7 @@
    * +,-,/,*,%,~/
    * 
    * buatkan pengecekan hari dari senin-jumat itu
-   * "ini adalah libur kerja"
+   * "ini adalah hari kerja"
    * hari dari sabtu-ahas itu
    * "ini adalah hari libur"
    * tidak senstive case (kalau sensitive betul2 sama(identik))
@@ -46,5 +46,57 @@
       break; 
     default:
     print('Operator tidak valid');// default
+  }
+  print('------------------------------------------');
+
+  stdout.write('Masukkan hari ');
+  String hari = stdin.readLineSync()!;
+  var hariBenar = hari.toUpperCase();
+   switch (hariBenar) {
+     case 'SENIN':
+       print('hari kerja');
+       break;
+     case 'SELASA':
+       print('hari kerja');
+       break;
+     case 'RABU':
+       print('hari kerja');
+       break;
+     case 'KAMIS':
+       print('hari kerja');
+       break;
+     case 'JUMAT':
+       print('hari kerja');
+       break;
+     case 'SABTU':
+       print('Hari libur bossku');
+       break;
+     case 'AHAD':
+       print('Hari libur bossku');
+       break;
+     case 'MINGGU':
+       print('Hari libur bossku');
+       break;
+     default:
+     print('nulis yang bener dikit napa dh');
+   }
+
+  print('------------------------------------------');
+
+  stdout.write('Masukkan angka 1/2/3 ');
+  int kendaraan = int.parse(stdin.readLineSync()!);
+
+  switch (kendaraan) {
+    case 1:
+      print('Mobil');
+      break;
+    case 2:
+      print('Motor');
+      break;
+    case 3:
+      print('Kapal');
+      break;
+    default:
+    print('kendaraan apa yang kau naiki tu bang');
   }
 }
