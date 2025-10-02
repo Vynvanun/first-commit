@@ -1,13 +1,17 @@
 import 'dart:io';
 
 void main(List<String> args) {
-  //tentang kalkulator
-  stdout.write("halo selamat datang di \naplikasi kalkulator ");
-
-  stdout.write("masukkan angka 1 untuk mencari luas lingkaran dan 2 untuk keliling nya");
-  int typenya = int.parse(stdin.readLineSync()!);
-  if (int typenya = 1) {
-    
-  }
-
+  stdout.write('Masukkan angka pertama : ');
+  num firtsNumber = num.parse(stdin.readLineSync()!);
+  print('Angka $firtsNumber sebagai angka pertama ');
+  print(' ');
+  stdout.write('Masukkan angka kedua : ');
+  num secondNumber = num.parse(stdin.readLineSync()!);
+  print(' ');
+  print('Angka $secondNumber sebagai angka kedua ');
+  stdout.write('Masukkan huruf operator : ');
+  String operator = stdin.readLineSync()!;
+  print(' ');
+  print('Hasilnya: ');
+  
 }
