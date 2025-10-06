@@ -64,4 +64,10 @@ void main() {
    * menggabungkan dua list menjadi di satu
    */
 
+  /**
+   * 1.buatkan list yang berisi 5 nama dari A-E
+   * - dan tampilkan data nama index ke 3
+   * - Tambahkan nama baru, lalu hapus nama pertama
+   * - Cek apakah nama Eka ada dalam list?
+   */
 }
