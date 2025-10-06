@@ -19,7 +19,7 @@ void main(List<String> args) {
     print(number.elementAt(1));
 
     // dart juga mendukung union dn inersection
-    //union +> menggabungkan 2 data atau lebih menjadi satu himpunan
+    //union => menggabungkan 2 data atau lebih menjadi satu himpunan
     //intersection() => hanya menggabungkan "data yang sama" dari kedua himpunan yang dipertimbangkan
 
     Set<int> segmentA = {1, 3, 5, 7, 9};
