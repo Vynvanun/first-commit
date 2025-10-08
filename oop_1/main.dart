@@ -38,6 +38,11 @@ void main(List<String> args) {
 
 //ketika memanggil kelas dengan constructoy
 //maka kita harus mengisis value dari properties
-  var hewan = Hewan('Ucup guerero', 'Orange', 3.5);
+ // var hewan = Hewan('Ucup guerero', 'Orange', 3.5);
   
+  // penggunaan cascade notation
+  var hewan = Hewan('Ucup guerero', 'Orange', 3.5)
+  ..name = 'Vladimir'
+  ..color = 'Red'
+  ..eat();
 }
