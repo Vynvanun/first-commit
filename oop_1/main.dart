@@ -23,10 +23,6 @@ void main(List<String> args) {
   cat.eat();
   cat.poop();
 
-  var hewan = Hewan(name, color, weight);
-  
-}
-
 /**
  * Petualangan karakter RPG
  * Buatlah sebuah program dart yang mensimulasikan karakter 
@@ -39,3 +35,9 @@ void main(List<String> args) {
  * attack(),
  * heal()
  */
+
+//ketika memanggil kelas dengan constructoy
+//maka kita harus mengisis value dari properties
+  var hewan = Hewan('Ucup guerero', 'Orange', 3.5);
+  
+}
