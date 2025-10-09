@@ -45,4 +45,10 @@ void main(List<String> args) {
   ..name = 'Vladimir'
   ..color = 'Red'
   ..eat();
+
+  /**
+   * titik kona (;) menanndakan berakhrirnya sebuah kode
+   * jangan lupa titik koma(;)
+   * 
+   */
 }
